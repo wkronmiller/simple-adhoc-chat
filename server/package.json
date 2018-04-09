@@ -1,0 +1,20 @@
+{
+  "name": "adhoc-chat-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "William Rory Kronmiller",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.2",
+    "http-proxy-middleware": "^0.18.0",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "test": "nodemon --exec babel-node src/index.js",
+    "start": "babel-node src/index.js"
+  }
+}
